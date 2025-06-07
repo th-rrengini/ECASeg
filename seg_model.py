@@ -5,7 +5,7 @@ from torch.nn.functional import softmax
 import matplotlib.pyplot as plt
 import gc
 import numpy as np 
-from camvid_edge_model import UNET_edge
+from edge_model import UNET_edge
 from camvid_datagen import CamVid
 import torch.nn as nn
 from torchinfo import summary
