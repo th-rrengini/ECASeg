@@ -4,7 +4,7 @@
 
 **Overall Model Architecture**
 ---
-![Network Architecture](network_arch.pdf)
+![Network Architecture](network_arch.png)
 
 **Feature Fusion Overview**
 ---
@@ -22,3 +22,10 @@ Table: Quantitative analysis summary
 | **mIoU (%)**  | 63.29              | 64.55         | 46.30      | 45.00  | 50.18        | 62.98          | 65.47       | **66.53**               |
 | **% Change**  | +5.12              | +3.07         | +43.69     | +47.84 | +32.58       | +5.64          | +1.62       | -                       |
 
+**Environment**
+---
+```bash
+torch==2.1.2
+torchvision==0.16.2
+python==3.10
+```
